@@ -1,0 +1,9 @@
+.text {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px red;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
