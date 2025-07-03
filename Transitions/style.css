@@ -1,0 +1,40 @@
+a:hover {
+  color: black;
+}
+p:hover {
+  color: red;
+  font-size: 2rem;
+  transition-duration: 2s;
+}
+.item1:hover {
+  font-size: 2rem;
+  color: red;
+  transition-duration: 2s;
+  transition-timing-function: steps(5);
+}
+
+.item2:hover {
+  font-size: 2rem;
+  color: red;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+}
+.item3:hover {
+  font-size: 2rem;
+  color: red;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+.item4:hover {
+  font-size: 2rem;
+  color: red;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.item5:hover {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
