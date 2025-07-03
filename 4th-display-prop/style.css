@@ -1,0 +1,38 @@
+P {
+  display: inline;
+  background-color: red;
+}
+button {
+  display: block;
+}
+/* with inline block the property margin and padding will  work */
+.box1 {
+  height: 100px;
+  width: 100px;
+  margin: 40px;
+  padding: 40px;
+  background-color: red;
+  display: inline-block;
+}
+/* without inline block the property margin and padding will not work  */
+.box2 {
+  height: 100px;
+  width: 100px;
+  margin: 40px;
+  padding: 40px;
+  background-color: red;
+  display: inline;
+}
+
+.box3 {
+  height: 100px;
+  width: 100px;
+  margin: 40px;
+  padding: 40px;
+  background-color: red;
+  display: inline-block;
+}
+.box {
+  display: none;
+  visibility: hidden;
+}
