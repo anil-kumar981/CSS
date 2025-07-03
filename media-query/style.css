@@ -1,0 +1,25 @@
+.div1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+@media (max-width: 300px) {
+  .div1 {
+    background-color: blue;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .div1 {
+    background-color: green;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .div1 {
+    background-color: yellow;
+  }
+}
+@media (min-width: 600px) {
+  .div1 {
+    background-color: black;
+  }
+}
