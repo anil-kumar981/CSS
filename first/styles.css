@@ -1,0 +1,12 @@
+/* id selector */
+#box {
+  background-color: blue;
+}
+/* class selector */
+.heading {
+  color: red;
+}
+/* tag selector */
+button {
+  background-color: green;
+}
